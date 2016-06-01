@@ -8,7 +8,10 @@ module.exports = {
 	res.send(dogs);
 	}//,
 	// update:function (req,res,next) {
-	//   
+	//  
+
+
+	 
 	// },
 	// delete: function (req,res,next) {
 	//  /* body... */ 
