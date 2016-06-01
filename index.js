@@ -2,11 +2,11 @@ var express = require('express');
 var cors = require('cors');
 var bodyparser = require('body-parser');
 var session = require('express-session');
-
+var userctrl = require('./userctrl');
 var sndctrl = require('./sndctrl.js');//calling the snd controler
 var config = require('./config.js');
 var app = express();
-var userctrl = require('./userctrl');
+
 
 app.use(cors());
 app.use(bodyparser.json());

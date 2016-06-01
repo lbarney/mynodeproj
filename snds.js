@@ -12,4 +12,4 @@ module.exports = [{
 	artist: 'Evanescence', 
 	singer: 'Amy Lee',
 	songs: []
-}]
+}];
